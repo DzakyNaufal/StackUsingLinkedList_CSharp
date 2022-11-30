@@ -39,6 +39,11 @@ namespace StackUsingLinkedList_CSharp
             Console.WriteLine("\n" + element + " pushed.");
         }
 
+        public void pop()
+        {
+            Console.WriteLine("\nThe popped elements is: " + top.info);
+            top = top.next; //Make top point to the next node in sequence
+        }
     }
     internal class Program
     {
