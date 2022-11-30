@@ -9,8 +9,16 @@ namespace StackUsingLinkedList_CSharp
         public Node(int i, Node n)
         {
             info = i;
-            next = n;//
+            next = n;
         }
+    }
+
+    class Stacks
+    {
+        Node top;
+
+
+        
     }
     internal class Program
     {
